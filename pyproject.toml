@@ -6,7 +6,7 @@ authors = ["alexandre-assad <alexandre.assad@laplateforme.io>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.10"
 pandas = "^2.2.3"
 tensorflow = "^2.19.0"
 matplotlib = "^3.10.3"
@@ -14,6 +14,7 @@ scikit-learn = "^1.6.1"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
+black = "^25.1.0"
 
 [build-system]
 requires = ["poetry-core"]
