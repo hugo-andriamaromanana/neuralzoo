@@ -1,6 +1,12 @@
 from typing import Any
 
-from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score, accuracy_score
+from sklearn.metrics import (
+    confusion_matrix,
+    f1_score,
+    precision_score,
+    recall_score,
+    accuracy_score,
+)
 
 
 def evaluate_model(
@@ -19,4 +25,4 @@ def evaluate_model(
 # get it done, using MLP, get some kind of accuracy
 # display on a graph, accuracy per epochs
 
-# What is cipher10, odds, MLP, implementation, CNN, implementation, conclusion 
+# What is cipher10, odds, MLP, implementation, CNN, implementation, conclusion
